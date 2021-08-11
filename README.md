@@ -20,6 +20,10 @@ Go to repo
 
 ### `cd pomodoro-timer`
 
+To install the app
+
+### `npm install`
+
 To start the app
 
 ### `npm start`
