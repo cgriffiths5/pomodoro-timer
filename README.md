@@ -6,6 +6,10 @@ pomodoro-timer
 
 This app was my first attempt at building a timer in REACT. 
 
+### Link to deployed project
+
+### `https://cgriffiths5.github.io/pomodoro-timer/`
+
 ### Usage 
 
 Clone repo 
