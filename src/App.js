@@ -1,6 +1,4 @@
-import logo from './logo.svg';
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './App.css';
 
 class App extends React.Component {
@@ -49,13 +47,13 @@ class App extends React.Component {
   }
   
   startStop () {
-    if(this.state.start == false) {
+    if(this.state.start === false) {
       clearInterval(this.interval);
      this.interval = setInterval(() => { this.timer();
      }, 1000)
      this.setState({timer: this.state.timer, start: true});
     }
-    else if(this.state.start == true) {
+    else if(this.state.start === true) {
       clearInterval(this.interval);
       this.setState({timer: this.state.timer, start: false})
     }}
@@ -64,12 +62,12 @@ class App extends React.Component {
     if(this.state.timer > 0) {
       this.setState(prevState => ({timer: prevState.timer - 1}))
     }
-    else if(this.state.timer == 0 && this.state.status == false) {
+    else if(this.state.timer === 0 && this.state.status === false) {
       this.setState({timer: this.state.session * 60});
       this.audio.current.play();
       this.setState({status: true, timerLabel: "Session"});
     }
-    else if(this.state.timer == 0 && this.state.status == true) {
+    else if(this.state.timer === 0 && this.state.status === true) {
       this.setState({timer: this.state.break * 60});
       this.audio.current.play();
       this.setState({status: false, timerLabel: "Break"});

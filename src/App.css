@@ -16,6 +16,7 @@ body {
 
 #title {
   font-family: 'Fredoka One', cursive;
+  font-size: xx-large;
   text-align: center;
   color: white;
 }
@@ -23,9 +24,12 @@ body {
 #timer-label-container {
   position: relative;
   background-color: red;
+  color: white;
   width: 400px;
   height: 200px;
   margin: 0 auto;
+  padding: 30px;
+  box-shadow: 5px 10px;
   font-family: 'Fredoka One', cursive;
   border-radius: 20px 20px 20px 20px;
 }
@@ -54,8 +58,10 @@ body {
   height: 100px;
   left: 100px;
   font-family: 'Fredoka One', cursive;
+  color: white;
   border-radius: 20px 20px 20px 20px;
   font-size: 15px;
+  box-shadow: 5px 10px;
 }
 
 #session-title {
@@ -80,8 +86,10 @@ body {
   height: 100px;
   right: 100px;
   font-family: 'Fredoka One', cursive;
+  color: white;
   border-radius: 20px 20px 20px 20px;
   font-size: 15px;
+  box-shadow: 5px 10px;
 }
 
 #break-title {
