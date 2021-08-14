@@ -2,7 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 
 body {
-  background-color:#dfd2d6;
+  background-image: url(images/tomatoes3.jpg);
+  background-size: cover;
 }
 
 .button {
@@ -16,6 +17,7 @@ body {
 #title {
   font-family: 'Fredoka One', cursive;
   text-align: center;
+  color: white;
 }
 
 #timer-label-container {
